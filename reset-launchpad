@@ -1,0 +1,2 @@
+#!/bin/bash
+defaults write com.apple.Dock ResetLaunchPad -bool true ; sleep 2; killall Dock ; sleep 2
